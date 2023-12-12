@@ -2,7 +2,7 @@
 
 namespace UploadImagen.Models
 {
-    public class ImagenModel
+    public class Imagen
     {
         [Key]
         public Guid Id { get; set; }
