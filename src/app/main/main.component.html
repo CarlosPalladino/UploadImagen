@@ -1,1 +1,9 @@
-<p>main works!</p>
+<div class="container">
+  <h2>Upload Your Image</h2>
+  <h4>file should be Jpeg,Png...</h4>
+  <div id="dropzone" class="dropzone">Drog & Drop your image here</div>
+  <p>or</p>
+  <label for="fileInput" class="custom-file-upload">Choose a file</label>
+  <input type="file" id="fileInput" style="display:none;" />
+  <img [src]="image" [@if]="image">
+</div>
